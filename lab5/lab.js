@@ -11,7 +11,6 @@ var year = 2006
 // here is where we subtract to find out how old the car is
 var age = 2021 - year
 
-console.log(age);
 // here is where we make the lines of code to be display on our webpage
 document.writeln("Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>");
