@@ -1,3 +1,9 @@
+/**
+ * Author:    Alexis Sanchez
+ * Created:   2/12/2021
+ **/
+
+
 function fizzBuzzzBoom(max, factor) {
   for (var num = 0; num < max; num++) {
     var outStr = "";
@@ -29,7 +35,7 @@ document.getElementById('submit').addEventListener("click", function() {
         console.log("BuzzBoom");
         var str1 = i + " BuzzBoom!"
         $("#output").append("<p>" + str1 + "</p>");
-      } else if (i %21 == 0) {
+      } else if (i % 21 == 0) {
         console.log("FizzBoom");
         var str = i + " FizzBoom!"
         $("#output").append("<p>" + str + "</p>");
