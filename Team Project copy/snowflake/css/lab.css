@@ -1,67 +1,102 @@
-
-body{
-  background-color: #F6DA9D;
-    border-left-style: dashed;
+div{
+  box-sizing: border-box;
 }
-/* #timeline {
-  width: 800px;
-  height: 250px;
-  margin: 100px auto;
-  position: relative;
-  overflow-x: auto;
-} */
-#content{
-  background-color: #F6DA9D;
-  padding: 20px;
-    border-left-style: dashed;
 
+.year {
+    font-family: Courier, courier, Lucida;
 }
+
 h1{
-  text-align: center;
-  color: #C24C04;
-  font-size: 250%;
-  font-family: "Courier New";
-}
-p{
-  font-family: "Courier New";
-  font-size: 155%;
-  text-align:left;
-  color: #1F7375;
-  border-style: groove;
-  border-width: thick;
-  border-color: #C24C04;
-  padding: 30px;
-  height: 155%;
-  width: 90%;
+  font-family: Courier, courier, Lucida;
 }
 
-
-p.idea{
-  font-family: "Courier New";
-  text-align:left;
-  color: #1F7375;
+.timeline {
+    width: 900px;
+    text-align: center;
 }
-.hidden{
-  display: none;
+.timeline .timeline-item {
+    width: 100%;
 }
-.hidden1{
-  display: none;
+.timeline .timeline-item .definition, .timeline .timeline-item .year {
+    color: #eee;
+    display: block;
+    float:left;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
 }
-.hidden2{
-  display: none;
+.timeline .timeline-item.close .definition, .timeline .timeline-item.close .year {
+    color: #ccc;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
 }
-.hidden3{
-  display: none;
+.timeline .timeline-item .year {
+    font-size: 35px;
+    font-weight: bold;
+    width: 22%;
 }
-.hidden4{
-  display: none;
+.year{
+  margin-left: 38.1%
 }
-.hidden5{
-  display: none;
+.timeline .timeline-item .definition {
+    width: 100%;
+    width: 78%;
+    margin-left: -2px;
+    position: relative;
+    margin-left: 60%;
+    padding: 0 0 80px 50px;
+    border-left: 6px solid #aaa;
+    font-size: 28px;
+    font-weight: bolder;
 }
-.hidden6{
-  display: none;
+.timeline .timeline-item .marker {
+    background-color: #fff;
+    border: 4px solid #aaa;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    display: block;
+    float: right;
+    margin-right: -14px;
+    z-index: 2000;
+    position: relative;
 }
-.hidden7{
-  display: none;
+.timeline .timeline-item.active .definition, .timeline .timeline-item:hover .definition {
+    color: #444;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item.active .year, .timeline .timeline-item:hover .month {
+    color: #937ebb;
+}
+.timeline .timeline-item .marker .dot {
+    background-color: white;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+    border: 4px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 100px;
+    float: right;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item.active .marker .dot, .timeline .timeline-item:hover .marker .dot {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background-color: #937ebb;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/804153450119692311/820390394118275122/Untitled_Artwork_2.jpg");
+}
+#homeButton1{
+  position:relative;
+    margin-top:35%;
+    left:20%;
 }
