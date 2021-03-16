@@ -105,3 +105,9 @@ button{
     margin-top:35%;
     left:20%;
 }
+
+header{
+  font-family: Courier, courier, Lucida;
+  font-size: 36px;
+  font-weight: bold;
+}

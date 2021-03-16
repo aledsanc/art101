@@ -6,8 +6,10 @@ div{
     font-family: Courier, courier, Lucida;
 }
 
-h1{
+header{
   font-family: Courier, courier, Lucida;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .timeline {
@@ -71,11 +73,7 @@ h1{
 .timeline .timeline-item.active .year, .timeline .timeline-item:hover .month {
     color: #937ebb;
 }
-#homeButton1{
-  position:relative;
-    margin-top:35%;
-    left:20%;
-}
+
 .timeline .timeline-item .marker .dot {
     background-color: white;
     -webkit-transition: all 1s ease;
@@ -105,8 +103,10 @@ button{
     margin-top:35%;
     left:20%;
 }
+
 #homeButton1{
-  position:relative;
-    margin-top:35%;
-    left:20%;
+  position: relative;
+  margin-left: 170%;
+  margin-bottom:1%;
+  float:left;
 }

@@ -6,8 +6,10 @@ div{
     font-family: Courier, courier, Lucida;
 }
 
-h1{
+header{
   font-family: Courier, courier, Lucida;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .timeline {
